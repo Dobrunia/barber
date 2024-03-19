@@ -69,7 +69,7 @@ export const AboutUs = React.memo(() => {
             />
           </div>
           <div
-            className="w-max h-full flex transition-all"
+            className="w-max h-full flex transition-all duration-300"
             style={{ transform: `translateX(${backgroundPosition}px)` }}
           >
             <img src="/2.png" alt="" />

@@ -93,13 +93,13 @@ export const Header = React.memo(() => {
       <div className="flex items-center justify-between w-[408px] max-small:hidden">
         <MainButton
           content={'+7 (926) 555 35 35'}
-          bgColor={false}
+          bgColor={backgroundColor}
           img={'/ion_call.svg'}
           href="tel:+79265553535"
         />
         <MainButton
           content={'Записаться онлайн'}
-          bgColor={true}
+          bgColor={'#977656'}
           img={'/ion_calendar.svg'}
           href="#"
         />

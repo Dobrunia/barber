@@ -113,7 +113,7 @@ export const Catalog = React.memo(() => {
         </div>
         <div className="w-full h-[272px] overflow-hidden">
           <div
-            className="flex flex-nowrap justify-between w-max h-full transition-all"
+            className="flex flex-nowrap justify-between w-max h-full transition-all duration-300"
             style={{ transform: `translateX(${backgroundPosition}px)` }}
           >
             <ProductCard
