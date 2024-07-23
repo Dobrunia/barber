@@ -91,17 +91,17 @@ export const Header = React.memo(() => {
         />
       </nav>
       <div className="flex items-center justify-between w-[408px] max-small:hidden">
-        <MainButton
+        {/* <MainButton
           content={'+7 (926) 555 35 35'}
           bgColor={backgroundColor}
           img={'/ion_call.svg'}
           href="tel:+79265553535"
-        />
+        /> */}
         <MainButton
           content={'Записаться онлайн'}
           bgColor={'#977656'}
           img={'/ion_calendar.svg'}
-          href="#"
+          href="https://n1062799.yclients.com"
         />
       </div>
     </header>

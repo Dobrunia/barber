@@ -1,4 +1,5 @@
 import React from 'react';
+import { PortfolioPhoto } from '../shared/ui/PortfolioPhoto';
 
 export const OurWorks = React.memo(() => {
   return (
@@ -9,7 +10,10 @@ export const OurWorks = React.memo(() => {
       <div className="font-Prosto text-[48px] text-[#000] w-full text-center mb-[40px] max-small:text-[24px] max-small:text-start">
         Наши работы
       </div>
-      <div className="flex flex-wrap justify-between"></div>
+      <div className="flex flex-wrap justify-start">
+        <PortfolioPhoto photoUrl='./photo_1.jpg'/>
+        <PortfolioPhoto photoUrl='./photo_2.jpg'/>
+      </div>
     </section>
   );
 });

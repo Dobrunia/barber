@@ -19,7 +19,7 @@ export const Footer = React.memo(() => {
         </div>
         <div className="w-[246px] h-[1px] bg-[#FFF] mb-[30px]"></div>
         <div className="font-Roboro text-[14px] text-[#FFF] mb-[30px] max-small:text-[12px]">
-          © «ИП или ООО», 2024
+          © «ИП Матвеев Максим Александрович»
         </div>
       </div>
     </footer>

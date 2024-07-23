@@ -31,23 +31,23 @@ export const Contacts = React.memo(() => {
                 сб - вс: 10:00 - 18:00
               </div>
             </div>
-            <div className="w-[228px] max-small:w-[161px]">
+            {/* <div className="w-[228px] max-small:w-[161px]">
               <div className="font-Roboto text-[24px] font-regular text-[#FFF] mb-[6px] opacity-65 max-small:text-[20px] max-small:w-[161px]">
                 Телефон
               </div>
               <div className="font-Roboto text-[20px] font-regular text-[#FFF] max-small:text-[16px]">
                 +7 (495) 993 57 03
               </div>
-            </div>
+            </div> */}
             <div className="w-[228px] max-small:w-[161px]">
               <div className="font-Roboto text-[24px] font-regular text-[#FFF] mb-[6px] opacity-65 max-small:text-[20px]">
                 Социальные сети
               </div>
               <div className="font-Roboto text-[20px] font-regular text-[#FFF] flex max-small:w-[161px]">
-                <a href="" className="mr-[12px]" target="_blank">
+                {/* <a href="" className="mr-[12px]" target="_blank">
                   <img src="./telegram.svg" alt="" />
-                </a>
-                <a href="" target="_blank">
+                </a> */}
+                <a href="https://vk.com/barber_re.fresh" target="_blank">
                   <img src="./vk.svg" alt="" />
                 </a>
               </div>

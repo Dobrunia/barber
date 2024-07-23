@@ -1,24 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { MainButton } from '../shared/ui/MainButton';
 
 export const MainPage = React.memo(() => {
-  const [backgroundColor, setBackgroundColor] = useState('none');
+  // const [backgroundColor, setBackgroundColor] = useState('none');
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY === 0) {
-        setBackgroundColor('none');
-      } else {
-        setBackgroundColor('#191919');
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY === 0) {
+  //       setBackgroundColor('none');
+  //     } else {
+  //       setBackgroundColor('#191919');
+  //     }
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
   return (
     <section
       id="main"
@@ -42,18 +42,18 @@ export const MainPage = React.memo(() => {
         </span>
       </div>
       <div className="flex flex-col items-center justify-center w-[328px] small:hidden fixed bottom-[24px] right-1/2 max-small:translate-x-[50%] z-[11]">
-        <MainButton
+        {/* <MainButton
           content={'+7 (926) 555 35 35'}
           bgColor={backgroundColor}
           img={'/ion_call.svg'}
           href="tel:+79265553535"
         />
-        <br />
+        <br /> */}
         <MainButton
           content={'Записаться онлайн'}
           bgColor={'#977656'}
           img={'/ion_calendar.svg'}
-          href="#"
+          href="https://n1062799.yclients.com"
         />
       </div>
     </section>
