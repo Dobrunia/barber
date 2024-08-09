@@ -27,43 +27,43 @@ export const Catalog = React.memo(() => {
           <CatalogCard
             name="Мужская стрижка / Men's haircut"
             duration="1 час"
-            cost={1500}
+            // cost={}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Удлиненная стрижка / Elongated haircut"
             duration="1 час"
-            cost={1700}
+            // cost={}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Моделирование бороды / Beard modeling"
             duration=""
-            cost={1200}
+            // cost={}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Мужская стрижка + Моделирование бороды / Men's haircut + Beard modeling"
             duration="1 час"
-            cost={2200}
+            // cost={}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Тонирование (камуфляж) волос головы / Toning the head"
             duration=""
-            cost={1700}
+            // cost={}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Тонирование (камуфляж) бороды / Beard toning"
             duration=""
-            cost={1500}
+            // cost={}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Коррекция воском / Wax correction"
             duration=""
-            cost={500}
+            // cost={}
             BgPhoto="./111.png"
           />
         </div>
@@ -74,43 +74,43 @@ export const Catalog = React.memo(() => {
           <CatalogCard
             name="Мужская стрижка / Men's haircut"
             duration="1 час"
-            cost={2000}
+            // cost={2000}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Удлиненная стрижка / Elongated haircut"
             duration="1 час"
-            cost={2200}
+            // cost={2200}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Моделирование бороды / Beard modeling"
             duration="~30 мин"
-            cost={1500}
+            // cost={1500}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Мужская стрижка + Моделирование бороды / Men's haircut + Beard modeling"
             duration="1 час"
-            cost={2800}
+            // cost={2800}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Тонирование (камуфляж) волос головы / Toning the head"
             duration=""
-            cost={2200}
+            // cost={2200}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Тонирование (камуфляж) бороды / Beard toning"
             duration=""
-            cost={1700}
+            // cost={1700}
             BgPhoto="./111.png"
           />
           <CatalogCard
             name="Коррекция воском / Wax correction"
             duration=""
-            cost={500}
+            // cost={500}
             BgPhoto="./111.png"
           />
         </div>

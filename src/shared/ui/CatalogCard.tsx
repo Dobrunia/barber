@@ -3,7 +3,7 @@ import React from 'react';
 type PropsType = {
   name: string;
   duration: string;
-  cost: number;
+  // cost: number;
   BgPhoto: string;
 };
 
@@ -23,7 +23,9 @@ export const CatalogCard = React.memo((props: PropsType) => {
         <div className="text-[12px] opacity-65 mb-[8px] max-small:text-[10px]">
           Длительность — {props.duration}
         </div>
-        <div className="text-[24px] max-small:text-[16px]">{props.cost} ₽</div>
+        <div className="text-[24px] max-small:text-[16px]">
+          {/* {props.cost} ₽ */}
+        </div>
       </div>
     </div>
   );

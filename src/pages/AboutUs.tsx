@@ -73,8 +73,8 @@ export const AboutUs = React.memo(() => {
             style={{ transform: `translateX(${backgroundPosition}px)` }}
           >
             <img src="/2.png" alt="" />
-            <img src="/111.png" alt="" />
-            <img src="/44.png" alt="" />
+            {/* <img src="/111.png" alt="" />
+            <img src="/44.png" alt="" /> */}
           </div>
           <div className="absolute right-[20px] top-1/2 z-10">
             <ScrollBtn
