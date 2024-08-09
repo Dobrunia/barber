@@ -1,8 +1,8 @@
-# Лэндинг для барбершопа
+# Landing page for a barbershop
 
-[Re.fresh](https://barber-refresh.ru/)
+[Re.fresh](https://barber-refresh.ru)
 
-## Технологии
+## Technologies
 
 + React
 + TypeScript
