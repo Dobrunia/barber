@@ -1,5 +1,5 @@
-import { Placemark, Map, YMaps } from '@pbe/react-yandex-maps';
-import React from 'react';
+import { Placemark, Map, YMaps } from "@pbe/react-yandex-maps";
+import React from "react";
 
 export const Contacts = React.memo(() => {
   return (
@@ -27,26 +27,29 @@ export const Contacts = React.memo(() => {
                 Время работы
               </div>
               <div className="font-Roboto text-[20px] font-regular text-[#FFF] max-small:text-[16px]">
-                пн - пт: 09:00 - 20:00 <br />
-                сб - вс: 10:00 - 18:00
+                Ежедневно: 11:00 - 22:00 <br />
               </div>
             </div>
-            {/* <div className="w-[228px] max-small:w-[161px]">
+            <div className="w-[228px] max-small:w-[161px]">
               <div className="font-Roboto text-[24px] font-regular text-[#FFF] mb-[6px] opacity-65 max-small:text-[20px] max-small:w-[161px]">
                 Телефон
               </div>
               <div className="font-Roboto text-[20px] font-regular text-[#FFF] max-small:text-[16px]">
-                +7 (495) 993 57 03
+                <a href="tel:8 995 626 34 28">8 995 626 34 28</a>
               </div>
-            </div> */}
+            </div>
             <div className="w-[228px] max-small:w-[161px]">
               <div className="font-Roboto text-[24px] font-regular text-[#FFF] mb-[6px] opacity-65 max-small:text-[20px]">
                 Социальные сети
               </div>
               <div className="font-Roboto text-[20px] font-regular text-[#FFF] flex max-small:w-[161px]">
-                {/* <a href="" className="mr-[12px]" target="_blank">
+                <a
+                  href="http://t.me/reFreshBarbershop"
+                  className="mr-[12px]"
+                  target="_blank"
+                >
                   <img src="./telegram.svg" alt="" />
-                </a> */}
+                </a>
                 <a href="https://vk.com/barber_re.fresh" target="_blank">
                   <img src="./vk.svg" alt="" />
                 </a>
@@ -60,18 +63,18 @@ export const Contacts = React.memo(() => {
               defaultState={{
                 center: [59.95356, 30.57774],
                 zoom: 14,
-                controls: ['zoomControl', 'fullscreenControl'],
+                controls: ["zoomControl", "fullscreenControl"],
               }}
-              modules={['control.ZoomControl', 'control.FullscreenControl']}
+              modules={["control.ZoomControl", "control.FullscreenControl"]}
               width={728}
               height={416}
             >
               <Placemark
-                modules={['geoObject.addon.balloon']}
+                modules={["geoObject.addon.balloon"]}
                 defaultGeometry={[59.95356, 30.57774]}
                 properties={{
                   balloonContentBody:
-                    'This is balloon loaded by the Yandex.Maps API module system',
+                    "This is balloon loaded by the Yandex.Maps API module system",
                 }}
               />
             </Map>
