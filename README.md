@@ -1,6 +1,6 @@
 # Landing page for a barbershop
 
-[Re.fresh](https://barber-refresh.ru)
+[re.Fresh](https://barber-refresh.ru)
 
 ## Technologies
 
