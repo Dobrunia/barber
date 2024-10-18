@@ -13,6 +13,12 @@ export const OurWorks = React.memo(() => {
       <div className="flex flex-wrap justify-start">
         <PortfolioPhoto photoUrl='./photo_1.jpg'/>
         <PortfolioPhoto photoUrl='./photo_2.jpg'/>
+        <PortfolioPhoto photoUrl='./photo_3.jpg'/>
+        <PortfolioPhoto photoUrl='./photo_4.jpg'/>
+        <PortfolioPhoto photoUrl='./photo_5.jpg'/>
+        <PortfolioPhoto photoUrl='./photo_6.jpg'/>
+        <PortfolioPhoto photoUrl='./photo_7.jpg'/>
+        <PortfolioPhoto photoUrl='./photo_8.jpg'/>
       </div>
     </section>
   );

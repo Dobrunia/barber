@@ -72,7 +72,10 @@ export const AboutUs = React.memo(() => {
             className="w-max h-full flex transition-all duration-300"
             style={{ transform: `translateX(${backgroundPosition}px)` }}
           >
-            <img src="/2.png" alt="" />
+            <img className="w-[320px]" src="/2.png" alt="" />
+            <img className="w-[320px]" src="/slider_1.jpg" alt="" />
+            <img className="w-[320px]" src="/slider_2.jpg" alt="" />
+            <img className="w-[320px]" src="/slider_3.jpg" alt="" />
             {/* <img src="/111.png" alt="" />
             <img src="/44.png" alt="" /> */}
           </div>

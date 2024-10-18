@@ -35,7 +35,7 @@ export const Contacts = React.memo(() => {
                 Телефон
               </div>
               <div className="font-Roboto text-[20px] font-regular text-[#FFF] max-small:text-[16px]">
-                <a href="tel:8 995 626 34 28">8 995 626 34 28</a>
+                <a href="tel:8 995 626 34 28">+7 (995) 626-34-28</a>
               </div>
             </div>
             <div className="w-[228px] max-small:w-[161px]">
