@@ -1,32 +1,40 @@
 import React from 'react';
 
-type PropsType = {
-  name: string;
-  duration: string;
-  // cost: number;
-  BgPhoto: string;
-};
+interface CatalogCardProps {
+	name: string;
+	duration: string;
+	price: string;
+	BgPhoto: string;
+	onClick?: () => void;
+}
 
-export const CatalogCard = React.memo((props: PropsType) => {
-  return (
-    <div
-      className={`w-[272px] h-[354px] p-[18px] productCard cardTitle cursor-pointer rounded-img flex items-end justify-start mr-[32px] mb-[32px] max-small:w-[150px] max-small:h-[216px] max-small:p-[10px] max-small:mr-[20px] max-small:mb-[20px]`}
-      style={{
-        backgroundImage: `url(${props.BgPhoto})`,
-        filter: 'brightness(100%) saturate(100%) contrast(100%)',
-      }}
-    >
-      <div className="font-Inter font-regular text-[#FFF]">
-        <div className="text-[20px] leading-tight max-small:text-[14px]">
-          {props.name}
-        </div>
-        <div className="text-[12px] opacity-65 mb-[8px] max-small:text-[10px]">
-          Длительность — {props.duration}
-        </div>
-        <div className="text-[24px] max-small:text-[16px]">
-          {/* {props.cost} ₽ */}
-        </div>
-      </div>
-    </div>
-  );
-});
+export const CatalogCard: React.FC<CatalogCardProps> = ({
+	name,
+	duration,
+	price,
+	BgPhoto,
+	onClick,
+}) => {
+	return (
+		<div
+			className="w-[384px] h-[320px] rounded-img mr-[32px] mb-[32px] relative group cursor-pointer overflow-hidden max-lg:w-[320px] max-lg:h-[280px] max-md:w-[272px] max-md:h-[272px] max-small:w-[calc(100%-40px)] max-small:h-[420px] max-small:mx-5 max-small:mb-[24px]"
+			onClick={onClick}
+		>
+			<img
+				src={BgPhoto}
+				alt={name}
+				className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+			/>
+			<div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+			<div className="absolute bottom-0 left-0 p-6 text-white max-small:p-5">
+				<h3 className="font-Prosto text-[24px] mb-3 max-lg:text-[22px] max-md:text-[20px] max-small:text-[28px] max-small:text-center">
+					{name}
+				</h3>
+				<div className="font-Inter text-[16px] opacity-80 max-lg:text-[15px] max-md:text-[14px] max-small:text-[18px] max-small:text-center">
+					{duration && <p>{duration}</p>}
+					{price && <p className="mt-2">От {price}</p>}
+				</div>
+			</div>
+		</div>
+	);
+};

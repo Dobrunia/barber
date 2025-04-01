@@ -10,7 +10,7 @@ type PropsType = {
 export const MainButton = React.memo((props: PropsType) => {
   return (
     <a
-      className={`w-[200px] cursor-pointer flex items-center justify-around font-bold font-Inter text-[14px] p-[14px] rounded text-button-main-text-color hover:bg-button-main-hover border border-button-main max-small:w-[310px] max-small:h-[48px] max-small:text-[16px] max-small:p-[8px] max-small:justify-center`}
+      className={`w-max cursor-pointer flex items-center justify-start font-bold font-Inter text-[14px] p-[14px] rounded text-button-main-text-color hover:bg-button-main-hover border border-button-main max-small:w-[310px] max-small:h-[48px] max-small:text-[16px] max-small:p-[8px] max-small:justify-center`}
       style={{ background: props.bgColor }}
       href={`${props.href}`}
       target="_blank"

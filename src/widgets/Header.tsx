@@ -57,7 +57,7 @@ export const Header = React.memo(() => {
       className="w-full h-[102px] flex items-center justify-between fixed z-50 px-default max-small:h-[54px] max-small:px-modile"
       style={{ background: backgroundColor }}
     >
-      <img className="max-small:hidden" src="/logo.svg" alt="логотип" />
+      <img className="w-[116px] h-[86px] max-small:hidden" src="/logo-w.PNG" alt="логотип" />
       <nav className="flex items-center justify-between w-5/12 min-w-[400px] max-small:w-full max-small:min-w-[300px]">
         <NaVButton
           name="главная"
@@ -74,11 +74,11 @@ export const Header = React.memo(() => {
           link="#services"
           activeId={activeId === 'services' ? 'active' : ''}
         />
-        <NaVButton
+        {/* <NaVButton
           name="товары"
           link="#goods"
           activeId={activeId === 'goods' ? 'active' : ''}
-        />
+        /> */}
         <NaVButton
           name="портфолио"
           link="#ourWorks"
@@ -91,12 +91,12 @@ export const Header = React.memo(() => {
         />
       </nav>
       <div className="flex items-center justify-between w-[408px] max-small:hidden">
-        {/* <MainButton
-          content={'+7 (926) 555 35 35'}
+        <MainButton
+          content={'Позвонить'}
           bgColor={backgroundColor}
           img={'/ion_call.svg'}
-          href="tel:+79265553535"
-        /> */}
+          href="tel:+79956263428"
+        />
         <MainButton
           content={'Записаться онлайн'}
           bgColor={'#977656'}

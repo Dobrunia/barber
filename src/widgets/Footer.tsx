@@ -6,7 +6,7 @@ export const Footer = React.memo(() => {
       <div className="w-full h-full flex flex-col flex-wrap items-center justify-center">
         <img
           className="w-[140px] h-[104px] mb-[30px] max-small:w-[62px] max-small:h-[48px]"
-          src="./logo.svg"
+          src="./logo-w.PNG"
           alt=""
         />
         <div className="w-[489px] font-Inter text-[16px] text-[#FFF] flex items-center justify-between font-medium mb-[30px] max-small:w-full max-small:text-[12px]">

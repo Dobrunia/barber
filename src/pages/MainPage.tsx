@@ -1,24 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { MainButton } from '../shared/ui/MainButton';
 
 export const MainPage = React.memo(() => {
-  // const [backgroundColor, setBackgroundColor] = useState('none');
+  const [backgroundColor, setBackgroundColor] = useState('none');
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY === 0) {
-  //       setBackgroundColor('none');
-  //     } else {
-  //       setBackgroundColor('#191919');
-  //     }
-  //   };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY === 0) {
+        setBackgroundColor('none');
+      } else {
+        setBackgroundColor('#191919');
+      }
+    };
 
-  //   window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <section
       id="main"
@@ -27,7 +27,7 @@ export const MainPage = React.memo(() => {
     >
       <img
         className="max-small:absolute max-small:top-[80px] max-small:left-1/2 translate-x-[-50%] max-small:w-[134px] max-small:h-[100px] small:hidden"
-        src="/logo.svg"
+        src="/logo-w.PNG"
         alt="логотип"
       />
       <div className="absolute bottom-[60px] left-[60px] max-small:bottom-1/2 max-small:left-1/2 max-small:translate-y-2/4 max-small:translate-x-[-50%] max-small:text-center max-small:w-[307px] max-small:h-[60px]">
@@ -42,13 +42,13 @@ export const MainPage = React.memo(() => {
         </span>
       </div>
       <div className="flex flex-col items-center justify-center w-[328px] small:hidden fixed bottom-[24px] right-1/2 max-small:translate-x-[50%] z-[11]">
-        {/* <MainButton
-          content={'+7 (926) 555 35 35'}
+        <MainButton
+          content={'Позвонить'}
           bgColor={backgroundColor}
           img={'/ion_call.svg'}
-          href="tel:+79265553535"
+          href="tel:+79956263428"
         />
-        <br /> */}
+        <br />
         <MainButton
           content={'Записаться онлайн'}
           bgColor={'#977656'}
