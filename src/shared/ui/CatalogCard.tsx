@@ -17,7 +17,7 @@ export const CatalogCard: React.FC<CatalogCardProps> = ({
 }) => {
 	return (
 		<div
-			className="w-[568px] h-[233px] rounded-img mr-[32px] mb-[32px] relative group cursor-pointer overflow-hidden max-lg:w-[487px] max-lg:h-[200px] max-md:w-[438px] max-md:h-[180px] max-small:w-[calc(100%-40px)] max-small:h-[320px] max-small:mx-5 max-small:mb-[24px]"
+			className="w-[568px] rounded-img relative group cursor-pointer overflow-hidden max-lg:w-[487px] max-lg:h-[200px] max-md:w-[438px] max-md:h-[180px] max-small:w-[calc(100%-40px)] max-small:h-[320px] max-small:mx-5 max-small:mb-[24px]"
 			onClick={onClick}
 		>
 			<img

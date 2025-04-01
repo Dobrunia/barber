@@ -62,7 +62,7 @@ export const Catalog = React.memo(() => {
 					Каталог услуг
 				</div>
 				<div className="font-Prosto text-[36px] text-[#FFF] mb-[20px] max-small:text-[24px]"></div>
-				<div className="flex flex-wrap justify-start max-small:justify-center relative">
+				<div className="flex flex-wrap gap-8 justify-start max-small:justify-center relative">
 					{services.slice(0, 9).map((service) => (
 						<CatalogCard
 							key={service.id}
@@ -78,7 +78,7 @@ export const Catalog = React.memo(() => {
 						/>
 					))}
 					<div
-						className="absolute right-0 top-[50%] -translate-y-1/2 w-[60px] h-[120px] rounded-img bg-[#977656] hover:bg-[#755c43] transition-colors text-white text-[24px] font-bold flex items-center justify-center cursor-pointer max-small:static max-small:w-[calc(100%-40px)] max-small:h-[60px] max-small:mx-5 max-small:mb-[24px]"
+						className="absolute right-[-80px] top-[50%] -translate-y-1/2 w-[60px] h-[100px] rounded-img bg-[#977656] hover:bg-[#755c43] transition-colors text-white text-[24px] font-bold flex items-center justify-center cursor-pointer max-small:static max-small:w-[calc(100%-40px)] max-small:h-[60px] max-small:mx-5"
 						title="Посмотреть все услуги"
 						onClick={handleBooking}
 					>
