@@ -26,7 +26,7 @@ export const MainPage = React.memo(() => {
       style={{ backgroundImage: `url('./main.png')` }}
     >
       <img
-        className="max-small:absolute max-small:top-[80px] max-small:left-1/2 translate-x-[-50%] max-small:w-[134px] max-small:h-[100px] small:hidden"
+        className="max-small:absolute max-small:top-[80px] max-small:left-1/2 translate-x-[-50%] max-small:w-[134px] small:hidden"
         src="/logo-w.PNG"
         alt="логотип"
       />

@@ -5,7 +5,7 @@ export const Footer = React.memo(() => {
     <footer className="w-full h-[357px] bg-blackBgColor flex flex-col max-small:p-modile max-small:h-[300px]">
       <div className="w-full h-full flex flex-col flex-wrap items-center justify-center">
         <img
-          className="w-[140px] h-[104px] mb-[30px] max-small:w-[62px] max-small:h-[48px]"
+          className="w-[140px] mb-[20px] max-small:w-[62px]"
           src="./logo-w.PNG"
           alt=""
         />

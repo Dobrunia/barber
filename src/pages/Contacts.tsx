@@ -72,7 +72,7 @@ export const Contacts = React.memo(() => {
 					<YMaps>
 						<Map
 							defaultState={{
-								center: [59.95356, 30.57774],
+								center: [59.951781, 30.577278],
 								zoom: 14,
 								controls: ['zoomControl', 'fullscreenControl'],
 							}}
@@ -82,7 +82,7 @@ export const Contacts = React.memo(() => {
 						>
 							<Placemark
 								modules={['geoObject.addon.balloon']}
-								defaultGeometry={[59.95356, 30.57774]}
+								defaultGeometry={[59.951781, 30.577278]}
 								properties={{
 									balloonContentBody:
 										'This is balloon loaded by the Yandex.Maps API module system',
