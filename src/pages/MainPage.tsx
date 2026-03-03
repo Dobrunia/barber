@@ -37,7 +37,7 @@ export const MainPage = React.memo(() => {
         <br />
         <br />
         <span className="font-Roboto text-[28px] font-regular text-[#FFFFFF] opacity-75 leading-tight max-small:text-[14px]">
-          «re.Fresh» — профессиональный барбершоп <br />
+          «ре.Фреш» — профессиональный барбершоп <br />
           для создания уникального образа!
         </span>
       </div>
