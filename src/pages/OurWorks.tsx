@@ -5,12 +5,12 @@ export const OurWorks = React.memo(() => {
 	return (
 		<section
 			id="ourWorks"
-			className="scroll-mt-[80px] max-small:scroll-mt-[48px] w-full min-h-screen px-default pt-[80px] mb-[80px] relative"
+			className="scroll-mt-[80px] max-small:scroll-mt-[48px] w-full min-h-screen px-default max-small:px-modile pt-[80px] mb-[80px] relative"
 		>
 			<div className="font-Prosto text-[48px] text-[#000] w-full text-center mb-[40px] max-small:text-[24px]">
 				Наши работы
 			</div>
-			<div className="flex flex-wrap justify-start">
+			<div className="flex flex-wrap justify-start max-small:flex-col max-small:items-stretch">
 				<PortfolioPhoto photoUrl="./photo_1.jpg" />
 				<PortfolioPhoto photoUrl="./photo_2.jpg" />
 				<PortfolioPhoto photoUrl="./photo_3.jpg" />
@@ -25,7 +25,7 @@ export const OurWorks = React.memo(() => {
 				<PortfolioPhoto photoUrl="./photo_13.jpg" />
 				<PortfolioPhoto photoUrl="./photo_14.jpg" />
 				<div
-					className="absolute right-3 top-1/2 -translate-y-[100%] w-[60px] h-[100px] rounded-img bg-[#977656] hover:bg-[#755c43] transition-colors text-white text-[24px] font-bold flex items-center justify-center cursor-pointer max-lg:static max-lg:translate-y-0 max-lg:w-[270px] max-lg:h-[60px] max-lg:mr-[20px] max-lg:mb-[20px]"
+					className="absolute right-3 top-1/2 -translate-y-[100%] w-[60px] h-[100px] rounded-img bg-[#977656] hover:bg-[#755c43] transition-colors text-white text-[24px] font-bold flex items-center justify-center cursor-pointer max-small:static max-small:translate-y-0 max-small:w-full max-small:max-w-full max-small:h-[60px] max-small:mr-0 max-small:mb-[20px]"
 					title="Посмотреть все работы"
 					onClick={() =>
 						window.open('https://vk.com/albums-225013832', '_blank')

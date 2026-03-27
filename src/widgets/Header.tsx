@@ -57,9 +57,9 @@ export const Header = React.memo(() => {
       className="w-full h-[80px] flex items-center justify-between fixed z-50 px-default max-small:h-[48px] max-small:px-modile"
       style={{ background: backgroundColor }}
     >
-      <div className="flex shrink-0 items-center justify-center w-[116px] h-[40px] max-small:hidden">
+      <div className="flex shrink-0 items-center justify-center w-[124px] h-[44px] max-small:hidden">
         <img
-          className="block w-[72px] max-h-full object-contain"
+          className="block w-[80px] max-h-full object-contain"
           src="/logo-w.PNG"
           alt="логотип"
         />

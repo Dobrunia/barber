@@ -32,16 +32,19 @@ export const MainPage = React.memo(() => {
           alt="логотип"
         />
       </div>
-      <div className="absolute bottom-[60px] left-[60px] max-small:bottom-1/2 max-small:left-1/2 max-small:translate-y-2/4 max-small:translate-x-[-50%] max-small:text-center max-small:w-[307px] max-small:h-[60px]">
-        <span className="font-Prosto text-[64px] text-[#FFFFFF] leading-tight max-small:text-[24px] ">
-          Объединяем классику <br /> и современность
-        </span>
-        <br />
-        <br />
-        <span className="font-Roboto text-[28px] font-regular text-[#FFFFFF] opacity-75 leading-tight max-small:text-[14px]">
-          «ре.Фреш» — профессиональный барбершоп <br />
-          для создания уникального образа!
-        </span>
+      <div className="absolute bottom-[60px] left-[60px] max-small:bottom-1/2 max-small:left-1/2 max-small:translate-y-2/4 max-small:translate-x-[-50%] max-small:text-center max-small:w-[min(calc(100vw-40px),480px)]">
+        <div className="max-small:rounded-2xl max-small:bg-black/40 max-small:px-4 max-small:py-4 max-small:shadow-sm max-small:ring-1 max-small:ring-white/10 max-small:backdrop-blur-[6px]">
+          <span className="font-Prosto text-[64px] text-[#FFFFFF] leading-tight max-small:text-[22px] max-small:leading-snug max-small:drop-shadow-[0_1px_2px_rgba(0,0,0,0.45)]">
+            Объединяем классику <br className="max-small:hidden" /> и современность
+          </span>
+          <br className="max-small:hidden" />
+          <br className="max-small:hidden" />
+          <span className="font-Roboto text-[28px] font-regular text-[#FFFFFF] opacity-75 leading-tight max-small:text-[14px] max-small:opacity-95 max-small:leading-snug max-small:drop-shadow-[0_1px_2px_rgba(0,0,0,0.4)] max-small:mt-2 max-small:inline-block">
+            «ре.Фреш» — профессиональный барбершоп{' '}
+            <br className="max-small:hidden" />
+            для создания уникального образа!
+          </span>
+        </div>
       </div>
       <div className="flex flex-col items-center justify-center w-[328px] small:hidden fixed bottom-[24px] right-1/2 max-small:translate-x-[50%] z-[11]">
         <MainButton
