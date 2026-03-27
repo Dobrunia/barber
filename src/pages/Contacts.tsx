@@ -5,11 +5,11 @@ export const Contacts = React.memo(() => {
 	return (
 		<section
 			id="contacts"
-			className="w-full h-[576px] px-default pt-[80px] bg-blackBgColor rounded-backgroundImg mb-[80px] max-small:px-modile max-small:pt-[28px] max-small:pb-[28px] max-small:mb-[52px] max-small:h-max max-verySmall:px-[10px]"
+			className="scroll-mt-[80px] max-small:scroll-mt-[48px] w-full h-[576px] px-default pt-[80px] bg-blackBgColor rounded-backgroundImg mb-[80px] max-small:px-modile max-small:pt-[28px] max-small:pb-[28px] max-small:mb-[52px] max-small:h-max max-verySmall:px-[10px]"
 		>
 			<div className="h-[416px] flex flex-wrap items-center justify-between max-small:h-max max-small:flex-col">
 				<div className="w-[491px] h-[312px] flex flex-col flex-wrap items-start justify-center max-small:w-full max-small:h-full max-small:mb-[16px]">
-					<div className="font-Prosto text-[48px] text-[#FFF] mb-[8px] max-small:text-[24px]">
+					<div className="font-Prosto text-[48px] text-[#FFF] mb-[8px] max-small:text-[24px] max-small:text-center max-small:w-full">
 						Контакты
 					</div>
 					<div className="flex flex-wrap items-start justify-between w-[491px] h-[213px] max-small:w-full max-small:h-full">

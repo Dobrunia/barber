@@ -24,14 +24,16 @@ export const AboutUs = React.memo(() => {
 	return (
 		<section
 			id="aboutUs"
-			className="w-full h-screen px-default max-small:px-modile max-small:h-max"
+			className="scroll-mt-[80px] max-small:scroll-mt-[48px] w-full h-screen px-default max-small:px-modile max-small:h-max"
 		>
 			<div className="flex items-center justify-around w-full h-full max-small:flex-col max-small:h-max">
 				<div className="w-[636px] h-[636px] flex flex-col pt-[40px] max-small:w-full max-small:h-max">
 					<div className="mb-[28px]">
-						<span className="font-Prosto text-[48px] text-[#000] max-small:text-[24px]">
-							О нас
-						</span>
+						<div className="max-small:text-center">
+							<span className="font-Prosto text-[48px] text-[#000] max-small:text-[24px]">
+								О нас
+							</span>
+						</div>
 						<br />
 						<span className="font-Roboto text-[16px] font-regular text-[#000] leading-tight max-small:text-[12px]">
 							Барбершоп «ре.Фреш» - это уникальное пространство, где стиль и

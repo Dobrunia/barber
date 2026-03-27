@@ -25,11 +25,13 @@ export const MainPage = React.memo(() => {
       className="relative bg-center bg-no-repeat bg-cover w-full h-screen rounded-b-backgroundImg px-default max-small:px-modile"
       style={{ backgroundImage: `url('./main.png')` }}
     >
-      <img
-        className="max-small:absolute max-small:top-[80px] max-small:left-1/2 translate-x-[-50%] max-small:w-[134px] small:hidden"
-        src="/logo-w.PNG"
-        alt="логотип"
-      />
+      <div className="max-small:absolute max-small:top-[80px] max-small:left-1/2 max-small:-translate-x-1/2 max-small:flex max-small:items-center max-small:justify-center max-small:w-[134px] max-small:h-[60px] small:hidden">
+        <img
+          className="max-small:block max-small:w-[104px] max-small:max-h-full max-small:object-contain"
+          src="/logo-w.PNG"
+          alt="логотип"
+        />
+      </div>
       <div className="absolute bottom-[60px] left-[60px] max-small:bottom-1/2 max-small:left-1/2 max-small:translate-y-2/4 max-small:translate-x-[-50%] max-small:text-center max-small:w-[307px] max-small:h-[60px]">
         <span className="font-Prosto text-[64px] text-[#FFFFFF] leading-tight max-small:text-[24px] ">
           Объединяем классику <br /> и современность

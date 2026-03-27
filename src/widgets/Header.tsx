@@ -54,10 +54,16 @@ export const Header = React.memo(() => {
 
   return (
     <header
-      className="w-full h-[102px] flex items-center justify-between fixed z-50 px-default max-small:h-[54px] max-small:px-modile"
+      className="w-full h-[80px] flex items-center justify-between fixed z-50 px-default max-small:h-[48px] max-small:px-modile"
       style={{ background: backgroundColor }}
     >
-      <img className="w-[116px] max-small:hidden" src="/logo-w.PNG" alt="логотип" />
+      <div className="flex shrink-0 items-center justify-center w-[116px] h-[40px] max-small:hidden">
+        <img
+          className="block w-[72px] max-h-full object-contain"
+          src="/logo-w.PNG"
+          alt="логотип"
+        />
+      </div>
       <nav className="flex items-center justify-between w-5/12 min-w-[400px] max-small:w-full max-small:min-w-[300px]">
         <NaVButton
           name="главная"

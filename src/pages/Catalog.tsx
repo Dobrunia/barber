@@ -57,7 +57,10 @@ export const Catalog = React.memo(() => {
 
 	return (
 		<div className="w-full min-h-screen pl-[128px] pr-[96px] py-[80px] bg-blackBgColor rounded-backgroundImg max-small:px-5 max-small:py-[32px]">
-			<section id="services">
+			<section
+				id="services"
+				className="scroll-mt-[80px] max-small:scroll-mt-[48px]"
+			>
 				<div className="font-Prosto text-[48px] text-[#FFF] mb-[52px] max-small:text-[24px] max-small:text-center">
 					Каталог услуг
 				</div>

@@ -5,9 +5,9 @@ export const OurWorks = React.memo(() => {
 	return (
 		<section
 			id="ourWorks"
-			className="w-full min-h-screen px-default pt-[80px] mb-[80px] relative"
+			className="scroll-mt-[80px] max-small:scroll-mt-[48px] w-full min-h-screen px-default pt-[80px] mb-[80px] relative"
 		>
-			<div className="font-Prosto text-[48px] text-[#000] w-full text-center mb-[40px] max-small:text-[24px] max-small:text-start">
+			<div className="font-Prosto text-[48px] text-[#000] w-full text-center mb-[40px] max-small:text-[24px]">
 				Наши работы
 			</div>
 			<div className="flex flex-wrap justify-start">
